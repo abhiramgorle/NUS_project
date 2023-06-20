@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Homemain.css"
-import {BiPlay} from "react-icons/bi"
 import img1 from "../Assests/book.png"
 import logo from "../Assests/logoo.png"
 const Homemain = () => {

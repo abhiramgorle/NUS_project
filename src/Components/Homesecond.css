@@ -7,6 +7,11 @@
     top: 50px;
     height: 100vh;
 }
+
+.something{
+  position: relative;
+  top: 100px;
+}
 .slidershowimg{
     position: relative;
     top: 80px;

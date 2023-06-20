@@ -29,6 +29,7 @@ import pic15 from "../Assests/15.png"
 import pic16 from "../Assests/16.png"
 
 const Homesecond = () => {
+
   return (
     <div className="Homesecondd">
       <div className="secondcontent">
@@ -111,7 +112,6 @@ const Homesecond = () => {
         </SwiperSlide>
       </Swiper>
     </div>
-    
     </div>
   )
 }
