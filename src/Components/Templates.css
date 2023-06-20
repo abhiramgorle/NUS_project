@@ -1,0 +1,42 @@
+.templates{
+    width: 100vw;
+    background-color: bisque;
+}
+.templates h2{
+    position: relative;
+    top: 40px;
+    width: 50%;
+    left: 35%;
+}
+.gridele h3{
+    top: 10px;
+    left: 7%;
+}
+.tempgrid{
+    width: 80%;
+    position: relative;
+    top:100px;
+    left: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 40px;
+}
+.tempgrid1{
+    width: 80%;
+    position: relative;
+    top:100px;
+    left: 10%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 40px;
+}
+.gridele{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.gridele img{
+    max-width: 70%;
+}

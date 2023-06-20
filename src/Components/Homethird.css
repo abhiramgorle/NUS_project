@@ -1,0 +1,86 @@
+.homethird{
+    position: relative;
+    background-color: #1d3557;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.homethird h2{
+    color: aliceblue;
+}
+.thirdhead{
+    position: relative;
+    top: 10%;
+    width: 75%;
+    left: 20.5%;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    width: 81%;
+    height: 60%;
+    gap: 100px;
+    position: relative;
+    left: 10%;
+    top:15%;
+}
+.seph3{
+    left:27%
+}
+.sepph3{
+    left:10%;
+}
+.option, .option1, .option-click{
+    width: 27%;
+    height: 60%;
+    background-color: #d3eaf2;
+    opacity: 0.83;
+}
+.options img{
+    width: 55%;
+    position: relative;
+    top: 5%;
+    left: 20%;
+}
+.option-click{
+    opacity: 1;
+}
+.option1:hover{
+    cursor: pointer;
+}
+
+h3 {
+    font-family: 'Alkatra', cursive;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 600;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    position: relative;
+    top: 10%;
+    left: 21%;
+}
+.option1.greenbtn{
+    display: none;
+}
+.option-click.greenbtn{
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    gap: 15px;
+    position:absolute;
+    top:60%;margin-left: 8%;
+    background-color: white;
+    z-index: 40;
+    opacity: 1;
+}
+.options p{
+    color: black;
+}
+.option-click svg{
+    position: relative;
+    top: 10px;
+    left: 8px;
+}
